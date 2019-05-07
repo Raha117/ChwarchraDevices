@@ -38,7 +38,7 @@ Route::group(['middleware' => 'auth'], function(){
     
 
 });
-Auth::routes(['register' => false]);
+Auth::routes(['register' => false , 'reset' => false ]);
 /*
 Route::get('/projects','PostsController@index');
 Route::get('/projects/create','PostsController@create');
