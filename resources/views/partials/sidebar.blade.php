@@ -5,8 +5,8 @@
 <aside>
     <div id="sidebar" class="nav-collapse">
     <!-- sidebar menu start-->
-    <ul class="sidebar-menu" id="nav-accordion">
-        <p class="centered"><img src="{{ asset('img/download2.png') }}" class="img-circle" style="width:75% ; border-radius:50px"  ></p>
+    <ul class="sidebar-menu" style="width:80%" id="nav-accordion">
+        <p class="centered"><img src="{{ asset('img/download2.png') }}" class="img-circle" style="width:80% ; border-radius:45px ; margin-left:30px ; size:40px"  ></p>
         <h5 class="centered"> </h5>
         <li class="sub-menu no-margin no-padding">
             <a href="/">
@@ -43,7 +43,7 @@
         </li>
         <li class="sub-menu no-margin no-padding">
         <a href="/cameras">
-            <i class="fa fa-tasks"></i>
+            <i class="fa fa-video-camera"></i>
             <span>Cameras</span>
             </a>
 
@@ -57,7 +57,7 @@
         </li>
         <li class="sub-menu no-margin no-padding">
         <a href="/accounts">
-            <i class="fa fa-check-circle-o"></i>
+            <i class="fa fa-universal-access"></i>
             <span>Accounts</span>
             </a>
 

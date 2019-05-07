@@ -35,6 +35,7 @@ Route::group(['middleware' => 'auth'], function(){
     Route::delete('/accounts/{account}','Auth\RegisterController@destory_accounts');
     Route::get('/accounts/{account}/edit','Auth\RegisterController@edit_accounts');
     Route::patch('/accounts/{account}','Auth\RegisterController@update_accounts');
+    
 
 });
 Auth::routes(['register' => false]);

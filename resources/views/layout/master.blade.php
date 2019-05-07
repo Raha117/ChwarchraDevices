@@ -11,7 +11,6 @@
 
   <!-- Favicons -->
   <link href="{{ asset('img/chwarchra.logo')}}" class="img-circle" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Bootstrap core CSS -->
   <link href="{{ asset('lib/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
