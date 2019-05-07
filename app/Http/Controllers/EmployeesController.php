@@ -208,10 +208,7 @@ class EmployeesController extends Controller
             foreach ($employee->employee_devices as $employee_device ){
 
                 $employee_device->delete();
-                Device_Specification::where([
-                    'device_id'         => $employee_device->device_id,
-                    'specification_id'  => 12
-                ])->first()->delete();
+                
             }
         }
 
